@@ -1,0 +1,12 @@
+.fade-in-border {
+    height: 0;
+    transition: height 2s ease-out;
+    width: 2px; /* Adjust width if needed */
+  }
+  
+  .draw-line {
+    height: 258rem; /* Final height value */
+  }
+  .group:hover .aos-animate {
+    transform: scale(1.05) !important;
+  }
