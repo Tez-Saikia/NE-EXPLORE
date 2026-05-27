@@ -74,7 +74,7 @@ function ApFirstPkg() {
         return false;
       }
 
-      setError(""); // Clear any previous error
+      setError(""); 
       return true;
     };
 

@@ -69,8 +69,8 @@ function ApData() {
 
               {/* Button */}
               <div className="flex justify-center mt-4 ml-[-11rem]">
-                {pkg.route ? ( // Check if a custom route is defined
-                  <Link to={pkg.route} target="_blank">
+                {pkg.route ? ( 
+                  <Link to={pkg.route} >
                     <button className="w-full bg-[#ff8600] hover:bg-orange-400 text-white py-2 px-4 rounded-md font-bold">
                       Click For More Details
                     </button>

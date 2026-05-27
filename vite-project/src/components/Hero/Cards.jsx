@@ -101,7 +101,7 @@ function Cards() {
         }} 
       ></div>
 
-      <Link to={"/Packages/Nagaland"} target="_blank">
+      <Link to={"/Packages/Nagaland"} >
         <div className="absolute left-[16rem] bottom-[31rem] cursor-pointer">
           <span
             ref={spanRefNagaland}
@@ -135,7 +135,7 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to={"/Packages/Sikkim"} target="_blank">
+      <Link to={"/Packages/Sikkim"}>
         <div className="absolute left-[63rem] bottom-[2rem] cursor-pointer">
           <span
             ref={spanRefSikkim}
@@ -169,7 +169,7 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to={"/Packages/Meghalaya"} target="_blank">
+      <Link to={"/Packages/Meghalaya"} >
         <div className="absolute left-[16rem] bottom-[-28rem] cursor-pointer">
           <span
             ref={spanRefMeghalaya} 
@@ -203,7 +203,7 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to={"/Packages/Manipur"} target="_blank">
+      <Link to={"/Packages/Manipur"} >
         <div className="absolute left-[63rem] top-[34rem] cursor-pointer">
           <span
             ref={spanRefManipur}
@@ -238,7 +238,7 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to={"/Packages/Mizoram"} target="_blank">
+      <Link to={"/Packages/Mizoram"} >
         <div className="absolute left-[16rem] top-[65rem] cursor-pointer">
           <span
             ref={spanRefMizoram}
@@ -272,7 +272,7 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to={"/Packages/Arunachal"} target="_blank">
+      <Link to={"/Packages/Arunachal"} >
         <div className="absolute left-[63rem] top-[96rem] cursor-pointer">
           <span
             ref={spanrefArunachal}
@@ -307,7 +307,7 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to={"/Packages/Assam"} target="_blank">
+      <Link to={"/Packages/Assam"} >
         <div className="absolute left-[15rem] top-[130rem] cursor-pointer">
           <span
             ref={spanRefAssam}
@@ -341,7 +341,7 @@ function Cards() {
         </div>
       </Link>
 
-      <Link to={"/Packages/Tripura"} target="_blank">
+      <Link to={"/Packages/Tripura"} >
         <div className="absolute left-[63rem] top-[161rem] cursor-pointer">
           <span
             ref={spanRefTripura}
