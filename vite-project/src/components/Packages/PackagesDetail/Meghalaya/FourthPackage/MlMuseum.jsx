@@ -13,10 +13,10 @@ function MlMuseum() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3); // Cycle through the first 3 images
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3);
     }, 5000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval); 
   }, []);
 
   return (
