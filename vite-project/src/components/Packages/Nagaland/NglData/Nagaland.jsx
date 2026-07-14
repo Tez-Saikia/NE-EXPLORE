@@ -1,7 +1,7 @@
 import React from "react";
 import { useRef } from "react";
 import VDOS from "../../vdos/index";
-import Logo from "../../../../assets/logo.png";
+import Logo from "@/assets/logo.png";
 import "./Nagaland.css";
 import PkgImg from "../../images/index";
 import NglData from "./NglData";
