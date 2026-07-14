@@ -458,8 +458,8 @@ function ApFirstPkg() {
                     WebkitAppearance: "none",
                     appearance: "none",
                   }}
-                  value={phone} // Bind input to state
-                  onChange={(e) => setPhone(e.target.value)} // Update state on input change
+                  value={phone} 
+                  onChange={(e) => setPhone(e.target.value)} 
                 />
               </div>
             </CardContent>
