@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import Logo from "../../../../assets/Logo.png";
+import Logo from "@/assets/logo.png";
 import Nav from "../../../Header/Nav";
 import PkgBookingFooter from "../PkgBookingFooter";
 import {
