@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Header/Nav";
 import NeImgs from "./Imgs";
-import Logo from "../../assets/Logo.png";
+import Logo from "@/assets/logo.png";
 import {
   Carousel,
   CarouselContent,

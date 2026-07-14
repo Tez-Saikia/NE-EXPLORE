@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from "./Nav";
-import Logo from "../../assets/Logo.png"
+import Logo from "@/assets/logo.png"
 import Icons from "./Icons";
 
 function Header() {

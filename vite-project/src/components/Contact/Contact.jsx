@@ -2,7 +2,7 @@ import React from "react";
 import ContactImg from "./imgs/contactImg.jpg";
 import { useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
-import Logo from "../../assets/Logo.png";
+import Logo from "@/assets/logo.png";
 import ConatctNav from "./ConatctNav";
 import ContactFooter from "./ContactFooter";
 import ContactForm from "./ContactForm";

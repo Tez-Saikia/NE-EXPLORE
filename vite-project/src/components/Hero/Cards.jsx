@@ -7,7 +7,7 @@ import Aos from "aos";
 import { Link } from "react-router-dom";
 
 function Cards() {
-  const lineRef = useRef(null); // Reference for the vertical line
+  const lineRef = useRef(null); 
   const spanRefNagaland = useRef(null);
   const spanRefSikkim = useRef(null);
   const spanRefMeghalaya = useRef(null);
