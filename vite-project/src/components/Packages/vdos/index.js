@@ -1,6 +1,6 @@
 import NagalandVdo from "./NagalandVdo.mp4";
 import SikkimBgVdo from "./SikkimBg.mp4"
-import MglVdo from "./Mglbg.mp4"
+import MglVdo from "./MglBg.mp4"
 import MnpVdo from "./ManipurBg.mp4"
 import MizVdo from "./MizoramBg.mp4"
 import ApBg from "./ArunachalBg.mp4"
