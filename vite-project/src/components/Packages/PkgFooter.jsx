@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import Logo from "../../assets/Logo.png";
+import Logo from "@/assets/logo.png";
 import { Link } from "react-router-dom";
 
 function PkgFooter() {
