@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ApFifthPkgImg from "./FifthPkgImg/ApFifthPkgImg";
 import Pkgimg from "../../imgs";
 import Nav from "@/components/Header/Nav";
-import Logo from "../../../../../assets/Logo.png";
+import Logo from "@/assets/logo.png"
 import PkgDetailFooter from "../../../PackagesDetail/PkgDetailFooter";
 import { FaHandHoldingUsd } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -13,15 +13,14 @@ function ApHeighLights() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3); // Cycle through the first 3 images
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3);
     }, 5000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval); 
   }, []);
 
   return (
     <div className="w-full h-[300vh] bg-blue-200 relative">
-      {/* Nav with a high z-index */}
       <div className="relative z-50">
         <Nav />
       </div>

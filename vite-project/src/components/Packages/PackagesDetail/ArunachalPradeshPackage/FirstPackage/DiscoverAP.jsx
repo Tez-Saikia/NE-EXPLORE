@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ApFirstPkgImg from "./ApFirstPkgImgs/ApFirstPkgImg";
 import Pkgimg from "../../imgs";
 import Nav from "@/components/Header/Nav";
-import Logo from "../../../../../assets/Logo.png";
+import Logo from "@/assets/logo.png"
 import PkgDetailFooter from "../../../PackagesDetail/PkgDetailFooter";
 import { FaHandHoldingUsd } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -14,10 +14,10 @@ function DiscoverAP() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3); // Cycle through the first 3 images
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 3); 
     }, 5000);
 
-    return () => clearInterval(interval); // Cleanup on unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (
