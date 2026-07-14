@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import fourthPkgImgs from "./fourthPkgImgs";
 import Pkgimg from "../../imgs";
 import Nav from "@/components/Header/Nav";
-import Logo from "../../../../../assets/Logo.png";
+import Logo from "@/assets/logo.png"
 import PkgDetailFooter from "../../../PackagesDetail/PkgDetailFooter";
 import { FaHandHoldingUsd } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
