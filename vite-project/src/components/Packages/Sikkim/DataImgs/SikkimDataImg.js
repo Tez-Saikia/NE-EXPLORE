@@ -1,7 +1,7 @@
-import sKWonder1 from "./sKWonder1.avif"
-import sKWonder2 from "./sKWonder2.avif"
-import sKWonder3 from "./sKWonder3.avif"
-import sKWonder4 from "./sKWonder4.avif"
+import sKWonder1 from "./skWonder1.avif"
+import sKWonder2 from "./skWonder2.avif"
+import sKWonder3 from "./skWonder3.avif"
+import sKWonder4 from "./skWonder4.avif"
 
 import skShort1 from "./skShort1.avif"
 import skShort2 from "./skShort2.avif"
